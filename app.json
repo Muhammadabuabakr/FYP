@@ -4,11 +4,11 @@
     "slug": "cotton",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo1.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo1.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.myapp.cotton"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#FFFCD8"
+      },
+      "package": "com.myapp.cotton"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo1.png"
     }
   }
 }
